@@ -42,13 +42,26 @@
                     </ul>
                 </nav>
                 <div class="contacts">
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a href="tel:+48111111111">+48 111 111 111</a>
+                    <a href="mailto:info@devstudio.com" class="contacts-icons">
+                        info@devstudio.com
+                        <svg width="16px" height="12px">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                    </a>
+
+                    <a href="tel:+48111111111" class="contacts-icons"
+                        >+48 111 111 111
+                        <svg width="10px" height="16px">
+                            <use
+                                href="./images/icons.svg#icon-smartphone"
+                            ></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </header>
         <main class="section">
-            <section >
+            <section>
                 <div class="container">
                     <ul class="button-list">
                         <li>
@@ -82,7 +95,7 @@
             <section>
                 <div class="container">
                     <ul class="text-list portfolio-text-list">
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img1.jpg"
                                 alt="laptop"
@@ -96,7 +109,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img2.jpg"
                                 alt="zawodnicy grają w kosza"
@@ -110,7 +123,7 @@
                                 <p class="portfolio-article">Dizajn</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 3.jpg"
                                 alt="logo restauracji"
@@ -124,7 +137,7 @@
                                 <p class="portfolio-article">Aplikacja</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 4.jpg"
                                 alt="słuchawki"
@@ -138,7 +151,7 @@
                                 <p class="portfolio-article">Marketing</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 5.jpg"
                                 alt="paczki"
@@ -152,7 +165,7 @@
                                 <p class="portfolio-article">Aplikacja</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 6.jpg"
                                 alt="monitor"
@@ -168,7 +181,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 7.jpg"
                                 alt="magazyn-gazeta"
@@ -182,7 +195,7 @@
                                 <p class="portfolio-article">Dizajn</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 8.jpg"
                                 alt="kartonowy wisiorek"
@@ -194,7 +207,7 @@
                                 <p class="portfolio-article">Marketing</p>
                             </div>
                         </li>
-                        <li class="border-title-article">
+                        <li class="hover-border">
                             <img
                                 src="./images/portfolio/img 9.jpg"
                                 alt="pisze na laptopie"
@@ -202,17 +215,23 @@
                                 height="294"
                             />
                             <div class="portfolio-subtitles">
-                                <h3 class="portfolio-title-img">Growing Business</h3>
+                                <h3 class="portfolio-title-img">
+                                    Growing Business
+                                </h3>
                                 <p class="portfolio-article">Aplikacja</p>
-                            </div> 
-                
-            </section>             
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </main>
-                <footer class="footer section">
-                    <div class="container">
-                    <a class="logo" href="./index.html"
-                >Web<span class="studio-white">Studio</span></a
-                    >
+        <footer class="footer">
+            <div class="container">
+                <a class="logo" href="./index.html"
+                    >Web<span class="studio-white">Studio</span></a
+                >
+            </div>
+            <div class="container footer-wrapper">
                 <adress class="adress-wrapper">
                     <a
                         class="adress-link"
@@ -220,18 +239,74 @@
                         target="_blank"
                         >m. Warszawa, Aleje Jerozolimskie 21</a
                     >
+
                     <a class="mail-tel-footer" href="mailto:info@devstudio.com"
                         >info@devstudio.com</a
                     >
+
                     <a class="mail-tel-footer" href="tel:+48111111111"
                         >+48 111 111 111</a
                     >
                 </adress>
-        </div>
+                <div class="social-media-footer">
+                    <h3>DOŁĄCZ DO NAS</h3>
+
+                    <ul class="footer-social-list">
+                        <li>
+                            <a
+                                href="#"
+                                class="icon-social-media-footer"
+                                target="_blank"
+                            >
+                                <svg width="20px" height="20px">
+                                    <use
+                                        href="./images/icons.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="icon-social-media-footer"
+                                target="_blank"
+                            >
+                                <svg width="20px" height="20px">
+                                    <use
+                                        href="./images/icons.svg#icon-twitter"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="icon-social-media-footer"
+                                target="_blank"
+                            >
+                                <svg width="20px" height="20px">
+                                    <use
+                                        href="./images/icons.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="icon-social-media-footer"
+                                target="_blank"
+                            >
+                                <svg width="20px" height="20px">
+                                    <use
+                                        href="./images/icons.svg#icon-linkedin"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </footer>
-                
-                        
     </body>
 </html>
-
-<!--  -->
