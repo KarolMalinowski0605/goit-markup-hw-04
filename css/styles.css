@@ -126,7 +126,7 @@ svg {
 .headline {
     background-color: var(--brand-color-background-footer);
     padding: 200px 0px;
-    background-image: url('/images/background-image.jpg'),
+    background-image: url('../images/background-image.jpg'),
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
     background-position: 50% 50%;
     background-repeat: no-repeat;
