@@ -32,11 +32,6 @@ body {
     padding: 94px 0;
 }
 
-img,
-svg {
-    vertical-align: middle;
-}
-
 .header {
     padding: 24px 0px 25px;
     border: solid 1px #ececec;
@@ -115,6 +110,7 @@ svg {
 .contacts-icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     flex-direction: row-reverse;
     fill: var(--color-icons);
@@ -361,12 +357,8 @@ svg {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--brand-color-white);
-    padding-top: 20px;
+    margin-top: 20px;
     width: fit-content;
-}
-
-.adress-link:is(:hover, :focus) {
-    color: var(--brand-color-blue-button-hover);
 }
 
 .mail-tel-footer {
@@ -404,8 +396,7 @@ svg {
     background-color: #f5f4fa;
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button:is(:hover, :focus) {
     background-color: var(--brand-color-blue-button-hover);
     color: var(--brand-color-white);
 }
@@ -440,6 +431,9 @@ svg {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+    outline: none;
+    
+    
 }
 
 img {
